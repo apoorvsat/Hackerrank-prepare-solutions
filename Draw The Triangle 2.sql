@@ -1,12 +1,13 @@
-P(R) <em>represents</em> a pattern drawn by Julia in R rows. The following pattern represents P(5):
+-- QUESTION
+--P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 * 
 * * 
 * * * 
 * * * * 
 * * * * *
-Write a query to print the pattern P(20).
+--Write a query to print the pattern P(20).
 
-Solution:
+-- SOLUTION
 SELECT REPEAT('*', 1)
 UNION ALL 
 SELECT REPEAT (' *', 2)
