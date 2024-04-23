@@ -7,7 +7,7 @@ P(R) <em>represents</em> a pattern drawn by Julia in R rows. The following patte
 Write a query to print the pattern P(20).
 
 Solution:
-`SELECT REPEAT('*', 1)
+SELECT REPEAT('*', 1)
 UNION ALL 
 SELECT REPEAT (' *', 2)
 UNION ALL 
@@ -45,4 +45,4 @@ SELECT REPEAT (' *', 18)
 UNION ALL 
 SELECT REPEAT (' *', 19)
 UNION ALL 
-SELECT REPEAT (' *', 20)`
+SELECT REPEAT (' *', 20)
